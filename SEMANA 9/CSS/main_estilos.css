@@ -1,0 +1,54 @@
+@font-face{
+    font-family: neon;
+    src:url(../fonts/vcr_osd_mono/VCR_OSD_MONO_1.001.ttf);
+}
+:root {
+    --fondo:black;
+    --degrad:linear-gradient(90deg, black, red) ;
+    --font:white;
+}
+.neon {
+	color: #fff;
+	margin-top: 30%;
+	text-shadow:
+		0 0 5px rgb(255, 136, 0),
+		0 0 10px rgba(255, 136, 0),
+		0 0 20px rgba(255, 136, 0),
+		0 0 40px rgba(255, 136, 0),
+		0 0 80px rgba(255, 136, 0),
+		0 0 90px rgba(255, 136, 0),
+		0 0 100px rgba(255, 136, 0),
+		0 0 140px rgba(255, 136, 0),
+		0 0 180px rgba(255, 136, 0);
+}
+
+body {
+    font-family: neon;
+    background-color: var(--fondo);
+    background-image: url(../IMG/estelar.png);
+    color:var(--font);
+}
+
+  
+  .navbar-brand {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    
+    
+  }
+  
+  #testimonial {
+    padding: 50px 0 30px 0;
+    text-align:center;
+    margin-top: 40px;
+  }
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+  }
+  
+  
